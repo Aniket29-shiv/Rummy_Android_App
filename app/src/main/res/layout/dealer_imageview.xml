@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/dealerImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <RelativeLayout
+        android:layout_below="@+id/dealerImageView"
+        android:id="@+id/img_diaProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:elevation="10dp"
+        android:src="@drawable/app_icon"
+        android:background="@drawable/giftheading_bg"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELECT"
+            android:textSize="7dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/Golder_yellow"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

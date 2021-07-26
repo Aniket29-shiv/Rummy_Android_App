@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/trans_blackDark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toobar"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgback"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/tb_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Listing"
+            android:textColor="@color/colorredbutton"
+            android:textSize="18sp"
+            android:layout_toRightOf="@+id/imgback"
+            android:layout_marginLeft="20dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

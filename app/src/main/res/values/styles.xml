@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="registerStyle"  parent="Widget.AppCompat.TextView">
+
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">18dp</item>
+
+        <item name="android:background">@drawable/round_corners</item>
+        <item name="android:textColor">@color/color2</item>
+
+    </style>
+
+    <style name="fieldStyle">
+
+        <item name="android:color">@color/colorAccent</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+
+    </style>
+
+</resources>

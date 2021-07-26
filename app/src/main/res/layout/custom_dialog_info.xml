@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bghome"
+       >
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:orientation="horizontal"
+    android:layout_centerInParent="true"
+
+    android:paddingRight="15dp"
+    android:weightSum="4"
+    android:paddingLeft="20dp"
+    android:background="@drawable/pop_box_info"
+    android:layout_marginRight="20dp">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/txtbootvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹350"
+        android:textSize="15dp"
+        android:textColor="@color/coloryellow"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/txtboot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BOOT VALUE"
+        android:textColor="@color/colordullwhite"
+        android:textSize="15dp"
+        android:layout_alignParentLeft="true"
+        />
+
+
+
+</LinearLayout>
+    <View
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/line"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtmaxblindvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="15dp"
+            android:textColor="@color/coloryellow"
+            android:layout_alignParentRight="true"
+            />
+
+
+        <TextView
+            android:id="@+id/txtmaxblind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAXIMUM BLINDS"
+            android:textSize="15dp"
+            android:textColor="@color/colordullwhite"
+            android:layout_alignParentLeft="true"
+            />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/line"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtchallimtvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹44,800"
+            android:textSize="15dp"
+            android:textColor="@color/coloryellow"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/txtchallimt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHHAL LIMIT"
+            android:textSize="15dp"
+            android:textColor="@color/colordullwhite"
+            android:layout_alignParentLeft="true"
+            />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/line"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txtpotlimitvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹3,58,400"
+            android:textSize="15dp"
+            android:textColor="@color/coloryellow"
+            android:layout_alignParentRight="true"
+            />
+        <TextView
+            android:id="@+id/txtpotlimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POT LIMIT"
+            android:textSize="15dp"
+            android:textColor="@color/colordullwhite"
+            android:layout_alignParentLeft="true"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtgudluck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GOOD LUCK WITH YOUR CARDS"
+        android:textSize="15dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@color/coloryellow"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgclosetop"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/close"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="visible"
+        />
+</RelativeLayout>

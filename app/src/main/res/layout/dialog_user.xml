@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    >
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        >
+
+    <LinearLayout
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buy_box"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/lnr_userinfo"
+            android:visibility="visible"
+            android:layout_marginTop="90dp"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/txt_diaName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Name"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                />
+
+            <ImageView
+                android:id="@+id/img_edit"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginBottom="4dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_diaPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Phone Number"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/lnr_updateuser"
+            android:visibility="gone"
+            android:layout_marginTop="90dp"
+            >
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:hint="Enter User Name"
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@drawable/raounded_order_blank"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgsub"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/submit"
+                android:layout_marginTop="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_diaProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/app_icon"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgclosetop"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/close"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

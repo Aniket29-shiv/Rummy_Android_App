@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c62828</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="color2">#FFFFFF</color>
+    <color name="colordullwhite">#FFFFFF</color>
+    <color name="colorredbutton">#DA4900</color>
+    <color name="coloryellow">#E7FA2D</color>
+    <color name="colorslety">#ADACAD</color>
+    <color name="colorgreen">#00DF33</color>
+
+    <color name="trans_blackDark">#393939</color>
+    <color name="trans_black1">#2f2f2f</color>
+    <color name="backgoundfragmend">#2b2b2b</color>
+    <color name="black">#000</color>
+
+    <!--    Text Colors   -->
+    <color name="primaryText">#272727</color>
+    <color name="primaryTextLight">#494949</color>
+    <color name="secondaryText">#8F8F8F</color>
+    <color name="secondaryTextLight">#BBBBBB</color>
+    <color name="warningText">#f44336</color>
+
+    <color name="lghtAccent">#f6b148</color>
+    <color name="medgreen">#72b140</color>
+    <color name="Golder_yellow">#FFDF00</color>
+    <color name="white">#fff</color>
+    <color name="nevi_blue">#B20C2840</color>
+    <color name="blue">#0f4c82</color>
+    <color name="cream">#fdfe70</color>
+    <color name="rewardGold">#f4b95b</color>
+    <color name="rewardSilver">#b0b6c2</color>
+    <color name="rewardBrownz">#e9b079</color>
+
+    <color name="blackbg">#232323</color>
+    <color name="BrownColor">#8A0204</color>
+    <color name="gray">#595953</color>
+    <color name="shadow">#90000000</color>
+    <color name="lightgrey">#d3d3d3</color>
+
+</resources>

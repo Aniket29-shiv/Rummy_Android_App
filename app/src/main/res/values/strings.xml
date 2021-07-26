@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MH Games</string>
+    <string name="Rs">\u20B9</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="facebook_app_id">474484640365580</string>
+    <string name="fb_login_protocol_scheme">fb474484640365580</string>
+
+    <string name="google_integration">IfgkqWVsB4U5imio-IZC7bQ-</string>
+
+    <string name="chaal_error_messsage">Wait for you chaal</string>
+    <string name="sort_error_message">Sort First!</string>
+    <string name="select_card_error_message">Please select atleast one Card</string>
+    <string name="declare_game">Your opponent declare the game</string>
+    <string name="minimum_grouping">Minimum 3 cards Needed For Grouping </string>
+
+
+    <string name="drop">Drop</string>
+    <string name="declare">Declare</string>
+    <string name="declare_back">Declare Back</string>
+    <string name="group">GROUP</string>
+    <string name="discard">Discard</string>
+    <string name="sort">SORT</string>
+    <string name="finish">Finish</string>
+    <string name="drop_message">Continuous \"Please Wait\" after initial round of Win.</string>
+    <string name="cards_getting_error">\"Please Wait\" we are getting some error while finding cards for you.</string>
+
+    <string name="tow_palyer">2\nPlayers</string>
+    <string name="five_player">5\nPlayers</string>
+    <string name="select_no_of_players">Select No. of Players</string>
+    <string name="play_now">Play Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+
+
+</resources>

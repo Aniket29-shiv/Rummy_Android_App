@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghome"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/pop_setting"
+            android:orientation="vertical"
+            android:id="@+id/lnr_box"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:layout_centerInParent="true"
+                >
+                <TextView
+                    android:id="@+id/txtVersion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="New Version is Available \n Update for More feature !!"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:textSize="16dp"
+
+                    />
+                <RelativeLayout
+                    android:id="@+id/rltUpdate"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="250dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/orange_btn">
+
+                <TextView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Update"
+                   />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtnotfound"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Data no available!"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/img_diaProfile"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:src="@drawable/app_icon"
+            android:background="@drawable/giftheading_bg"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            >
+
+            <TextView
+                android:id="@+id/txtheader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="GIFTS"
+                android:textColor="@color/Golder_yellow"
+                android:textStyle="bold"
+                android:gravity="center"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imgclosetop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/close"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

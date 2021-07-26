@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingDefaultResource"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/imgcard"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="-6dp"
+        android:src="@drawable/bla"
+        android:elevation="10dp"
+        android:background="@drawable/shadow"
+        />
+
+    <ImageView
+        android:id="@+id/iv_jokercard"
+        android:layout_width="11dp"
+        android:layout_height="11dp"
+        android:src="@drawable/ic_joker"
+        android:layout_below="@+id/imgcard"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="-11dp"
+        android:visibility="visible"
+        android:elevation="10dp"
+        />
+
+
+</RelativeLayout>

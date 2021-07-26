@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_quit_learning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_confirm"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            >
+
+        </androidx.appcompat.widget.AppCompatImageView>
+        <TextView
+            android:id="@+id/txt_Confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Thank you!"
+            android:layout_margin="10dp"
+            android:textColor="#3E2723"
+            android:layout_below="@+id/img_confirm"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_orderId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_Confirm"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#BF360C"
+            android:text="Your Payment has been done Successfully!"
+            android:textSize="18sp" />
+
+
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/txt_orderId"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_payNow"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/transparent_bg_bordered_button_red"
+
+            android:layout_below="@+id/linear"
+            android:layout_centerHorizontal="true"
+
+            android:layout_weight="1"
+            android:textAllCaps="true"
+            android:text="ok"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/transparent_bg_bordered_button_red"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/transparent_bg_bordered_button_red"
+            android:layout_weight="1"
+            android:text="Ok" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

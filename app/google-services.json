@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805453937826",
+    "project_id": "mh-games-76ddb",
+    "storage_bucket": "mh-games-76ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805453937826:android:b8d748d58ddc8921e5ebfb",
+        "android_client_info": {
+          "package_name": "com.games.ms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805453937826-dpjbop53ee2hm6adh3bctc5gqa9ottsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZVPwCocBXu7O7aEqkYtqWYgVKEw6qdgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805453937826-dpjbop53ee2hm6adh3bctc5gqa9ottsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

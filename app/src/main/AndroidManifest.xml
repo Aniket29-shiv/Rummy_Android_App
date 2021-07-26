@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.games.ms">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:screenOrientation="sensorLandscape"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity
+            android:name="com.games.ms.Rummy5Player"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name="com.games.ms.Rummy2Player"
+            android:screenOrientation="sensorLandscape"
+            >
+        </activity>
+        <activity
+            android:name="com.games.ms.MainActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity android:name="com.games.ms.RedeemHistoryActivity" />
+        <activity
+            android:name="com.games.ms.RedeemActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.WelcomeBonusActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.GameChatActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.MyWinningAcitivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.MaiUserListingActivity"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.Splashscreen"
+            android:screenOrientation="sensorLandscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.games.ms.Homepage"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.LoginScreen"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.BuyChipsList"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.games.ms.BuyChipsDetails"
+            android:screenOrientation="sensorLandscape" />
+
+        <!--            android:value="rzp_live_TzyvQmD1j6o3jP"-->
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_live_M94T9vYtZLhfMW" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/app_icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service
+            android:name="com.games.ms.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

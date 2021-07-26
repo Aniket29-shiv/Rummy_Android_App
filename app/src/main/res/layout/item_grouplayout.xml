@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="15dp"
+    android:layout_weight="1"
+    android:clickable="false"
+    android:layout_gravity="center_horizontal"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlt_icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:clickable="false"
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_arrow_left"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:src="@drawable/right_arrow"
+            android:rotation="180"
+            android:visibility="gone"
+            android:layout_marginRight="2dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/iv_status"
+            android:layout_toRightOf="@+id/iv_arrow_left"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/invalid_circlebg"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_toRightOf="@+id/iv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invalid (23)"
+            android:textColor="@color/white"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/iv_arrow_right"
+            android:layout_width="20dp"
+            android:layout_height="18dp"
+            android:layout_toRightOf="@+id/tv_status"
+            android:src="@drawable/right_arrow"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lnr_group_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:elevation="4dp"
+        >
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.games.ms.LoginScreen">
+
+
+    <ImageView
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bghome" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgBackgroundlogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/app_icon"/>
+
+    <LinearLayout
+        android:id="@+id/lnr"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/raounded_order_blank"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/common_full_open_on_phone"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:maxLength="10"
+                android:hint="@string/enter_mobile_number"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/raounded_order_blank"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_baseline_person_24"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:hint="Enter Name"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/white"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/radioGroup"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Male        "
+                android:layout_gravity="center_vertical"
+                android:checked="false"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="   Female"
+                android:checked="false"
+                android:layout_gravity="center_vertical"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                />
+
+
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/raounded_order_blank"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                />
+
+            <EditText
+                android:id="@+id/edtReferalCode"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="text"
+                android:hint="Enter Referal Code (Optional)"
+                android:textColor="@color/white"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/white"
+                android:background="@null"/>
+
+        </LinearLayout>
+
+
+
+
+        <ImageView
+            android:id="@+id/imglogin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:src="@drawable/login_btn"
+            android:layout_marginTop="5dp"/>
+
+    </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

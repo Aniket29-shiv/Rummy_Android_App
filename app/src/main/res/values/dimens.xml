@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="margin_left_group">5dp</dimen>
+
+    <dimen name="card_width">60dp</dimen>
+
+    <dimen name="card_hieght">60dp</dimen>
+
+    <dimen name="wind_card_width">45dp</dimen>
+    <dimen name="wild_joker_width">11dp</dimen>
+
+
+    <dimen name="home_card_width">150dp</dimen>
+    <dimen name="home_card_height">200dp</dimen>
+
+
+</resources>
